@@ -36,12 +36,12 @@
         <form class="nestedgrid2" autocomplete="off" action="https://formspree.io/f/mknabgnq"
   method="POST">
           <div class="div1">
-          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label= "Name">  <br>
+          Name*<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Name"> <br>
           
-          Email*<br><input type="email" size="30" required name="email"><br>
+          Email*<br><input type="email" size="30" required name="email" aria-label="Email"><br>
 
 
-          Phone* <br><input type="tel" size="20" name="phone">
+          Phone* <br><input type="tel" size="20" name="phone" aria-label="Phone Number">
            <br> Personal Website <br> <input type="text" size="30">
           
           
@@ -50,7 +50,7 @@
           <div class="div2">
             
             Current High School <br> <input type="text" list="hs"><br>
-            <datalist id="hs">
+            <datalist id="hs" aria-label="School Name">
               <option value="Beaverbrook">
                 <option value="Birchwood">
                   <option value="Daytona">
@@ -58,9 +58,9 @@
                       <option value="Hainesville">
                         <option value="Other">
             </datalist>
-            <br> Expected date of entry <br> <input type= "datalist">
+            <br> Expected date of entry <br> <input type= "datalist" aria-label="First Day Of School">
             <br> Number of days/weeks desired <br> <input type= "number" min=1 max=5 step=1 value=2><br>
-             <br> <input type="submit" value="Help me Boost My Scores!" class="button">
+             <br> <input type="submit" value="Help me Boost My Scores!" class="button" aria-label="email">
           </div>
             </form>
            <div class="call">
